@@ -8,6 +8,18 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <style>
+        .container-fluid{
+            padding: 0;
+        }
+      #header {
+        width: 100%;
+        background-color: cadetblue;
+        margin: 0;
+        padding: 8px;
+        margin-bottom: 40px;
+      }
+    </style>
   </head>
   <body>
     <script
@@ -15,7 +27,19 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <div class="container">
+    <div class="container-fluid">
+      <div class="row" id="header">
+        
+          <div class="col-12 col-lg-4 text-center">
+            <h4>About Me</h3>
+          </div>
+          <div class="col-12 col-lg-4 text-center">
+            <h4>Contact me</h3>
+          </div>
+          <div class="col-12 col-lg-4 text-center">
+            <h4>Profile</h3>
+          </div>
+      </div>
       <div class="row">
         <div class="col-12 col-lg-6 text-center">
           <h1>Pritesh</h1>
