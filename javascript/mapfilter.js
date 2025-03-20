@@ -10,3 +10,8 @@ console.log(arr1);
 
 var arr2 = arr.filter(checkEven);
 console.log(arr2);
+
+const veggies = ["onion", "garlic", "potato"];
+veggies.forEach(function (veggie, index) {
+  console.log(`${index}. ${veggie}`);
+});
