@@ -1,31 +1,51 @@
-header > img{
-    display:block;
+body{
+    background-color:lightcyan;
+}
+.logoimg{
+    width:80px;
+    height:80px;
     margin-left: auto;
     margin-right: auto;
 }
 
-nav ul{
-    list-style: none;
-    text-align: center;
+.logoimg > img{
+    display:block;
+    width:80px;
+    height:80px;
+}
+.navlist {
+    background-color: #495e57;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
-nav li{
+.navlist li{
+    list-style-type: none;
+}
+
+.navlist a{
     display:inline-block;
+    padding:1.5em;
+    margin:0 1.5em;
+    text-align: center;
+    color: #fff;
 }
-
+main{
+    margin-top:-0.8em;
+}
 section {
     display:flex;
     width:100%;
 }
 
-article{
-    flex:1;
-}
-
 div.banner{
     flex:100%;
     height:350px;
-    background-color: darkcyan;
+    background-image: url('mdtrranian.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 div.banner > img {
@@ -33,10 +53,46 @@ div.banner > img {
     width:100%;
     height:100%;
 }
+
+section.topmenu{
+    display:flex;
+    width:80%;
+    margin-top: 2em;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+section.topmenu > article{
+    margin:2em;
+    flex:30%;
+}
+div.card{
+    border:1px solid silver;
+}
+div.card > img{
+    display:block;
+    width:100%;
+    height:240px;
+}
 footer {
     display:flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    background-color:cadetblue;
 }
 
 footer > div {
     flex:1;
+}
+#footerlogo{
+    margin:0 auto;
+    margin-left:2em;
+    text-align: center;
+}
+#footerlogoimg{
+    display:block;
+    width:240px;
+    height:64px;
+    padding:0.5em;
 }

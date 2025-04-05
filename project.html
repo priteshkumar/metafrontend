@@ -9,12 +9,14 @@
 <body>
     <!-- Header Section: Update this section to use semantic tags -->
     <header>
-        <img src="logo.png" />
+        <div class="logoimg">
+        <img src="asset18@4x.png" />
+        </div>
     </header>
 
     <!-- Navigation Section: Update this section to use semantic tags -->
     <nav>
-        <ul>
+        <ul class="navlist">
             <li><a href="#about">Home</a></li>
             <li><a href="#articles">Menu</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -24,39 +26,54 @@
 
     <!-- Main Content Section: Update this section to use semantic tags -->
     <main>
-        <!-- About Section: Replace with semantic structure -->
-        <section>
-            <!--<h1>About Me</h2>
-            <p>This is a brief introduction about the blog's author.</p>-->
+        <section class="promo">
             <div class="banner">
-                <img src="mdtrranian.jpeg">
+                <!--<img src="mdtrranian.jpeg">-->
+                <h2>Mediterrainian food festival is here!</h2>
+                <h2>Enjoy great discouunts</h2>
             </div>
-        
         </section>
 
         <!-- Articles Section: Replace with semantic structure -->
-        <section>
+        <section class="topmenu">
             <!-- Individual Article: Replace with semantic tags -->
             <article>
-                <h2>Article 1</h2>
-                <p>Summary of the first article.</p>
+                <div class="card">
+                    <img src="falafel.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                      <h2 class="card-title">Falafel.</h2>
+                      <p class="card-text">Chickpea, herbs, spices.</p>
+                    </div>
+                  </div>
+                <!--<h2>Article 1</h2>
+                <p>Summary of the first article.</p>-->
                 
             </article>
             <article>
-                <h2>Article 2</h2>
-                <p>Summary of the second article.</p>
+                <div class="card">
+                    <img src="pasta.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                      <h2 class="card-title">Falafel.</h2>
+                      <p class="card-text">Chickpea, herbs, spices.</p>
+                    </div>
+                  </div>
             </article>
             <article>
-                <h2>Article 3</h2>
-                <p>Summary of the third article.</p>
+                <div class="card">
+                    <img src="falafel.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                      <h2 class="card-title">Falafel.</h2>
+                      <p class="card-text">Chickpea, herbs, spices.</p>
+                    </div>
+                  </div>
             </article>
         </section>
     </main>
 
     <!-- Footer Section: Update this section to use semantic tags -->
     <footer>
-        <div>
-            <img src="logo.png">
+        <div id="footerlogo">
+            <img id="footerlogoimg" src="asset16@4x.png">
         </div>
         <div>
         <p>Contact me at email@example.com</p>
