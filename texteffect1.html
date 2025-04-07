@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .text{
+            border:2px solid brown;
+            width:200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: clip;
+        }
+        .text:hover{
+            overflow: visible;
+        }
+        h1{
+            text-shadow: 0 0 30px green,0 0 5px white;
+        }
+        .glow{
+            color:rgb(237,237,151);
+            text-shadow:0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 31px #fff,
+            0 0 55px rgb(255,226,4),
+            0 0 91px rgb(255,226,4),
+            0 0 100px rgb(255,226,4),
+            0 0 122px rgb(255,226,4),
+            0 0 140px rgb(255,226,4)
+        }
+    </style>
+</head>
+<body>
+    <h1>Little Lemon is great!</h1>
+    <h2 class="glow">fine dining restaurant</h2>
+    <div class="text">this is a sample write up to showcase hidden text</div>
+</body>
+</html>
